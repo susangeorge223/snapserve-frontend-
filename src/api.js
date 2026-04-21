@@ -1,1 +1,1 @@
-export const API_BASE = "http://localhost:3000";
+export const API_BASE = import.meta.env.VITE_API_BASE || "https://42f85134-3055-4189-b940-f78670756ac-00-liarccwn856i5.sisko.replit.dev";
